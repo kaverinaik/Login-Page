@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../Images/dubai.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.form-box {
+    width: 500px;
+    height: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 12px auto;
+    padding: 15% 0;
+    color: #fff;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3px;
+    margin-top: -87px;
+}
+
+.input-box {
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.input-box input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+::placeholder {
+    color: #ccc;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.eye {
+    position: absolute;
+
+}
+
+#hide-1 {
+    display: none;
+}
+
+.login-btn {
+    width: 80%;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 15px;
+    margin: 9px 40px;
+}
+
+.login-btn:hover {
+    background-color: #fff;
+    color: #131212;
+}
